@@ -1,0 +1,132 @@
+// Variables
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Custom styles
+.card-header,
+.card-footer {
+    background-color: $primary;
+    color: $light;
+}
+
+// Button colors
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.btn-secondary {
+    background-color: $secondary;
+    border-color: $secondary;
+}
+
+.btn-success {
+    background-color: $success;
+    border-color: $success;
+}
+
+.btn-info {
+    background-color: $info;
+    border-color: $info;
+}
+
+.btn-warning {
+    background-color: $warning;
+    border-color: $warning;
+}
+
+.btn-danger {
+    background-color: $danger;
+    border-color: $danger;
+}
+
+.btn-light {
+    background-color: $light;
+    border-color: $secondary;
+}
+
+.btn-dark {
+    background-color: $dark;
+    border-color: $dark;
+}
+
+.btn-outline-primary {
+    color: $primary;
+    border-color: $primary;
+}
+
+.btn-outline-primary:hover {
+    background-color: $primary;
+    color: $light;
+}
+
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+// Form styles
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: $light;
+    border-color: $secondary;
+    color: $dark;
+}
+
+.form-check-input {
+    background-color: $light;
+    border-color: $secondary;
+}
+
+.form-check-label.pointer:hover {
+    cursor: pointer;
+}
+
+// Card styles
+.card-header {
+    background-color: $light;
+    border-bottom: 1px solid $secondary;
+}
+
+.card-header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: $dark;
+}
+
+.card-body {
+    background-color: $light;
+    border-top: 1px solid $secondary;
+}
+
+.card-body label {
+    font-size: 16px;
+    font-weight: 600;
+    color: $dark;
+}
+
+.card-body input {
+    border: 1px solid $secondary;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+// Container styles
+.container {
+    margin-top: 30px;
+}
